@@ -9,7 +9,7 @@ bot.on('ready', function() {
 });
 
 bot.on('message', function(user, userID, channelID, message, rawEvent) {
-    if (message === "!test") { // command to trigger
+    if (message == "!test") { // command to trigger
       var interval = setInterval (function (){
         bot.sendMessage({
           to: 413422410415603713,
