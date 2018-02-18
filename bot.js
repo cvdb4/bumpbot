@@ -1,9 +1,10 @@
 var Discord = require('discord.js');
+process.env.BOT_TOKEN;
 var bot = new Discord.Client({
     
      autorun: true,
 });
-process.env.BOT_TOKEN
+
 bot.on('ready', function() {
     console.log(bot.username + " - (" + bot.id + ")");
 });
