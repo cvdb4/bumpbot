@@ -3,7 +3,7 @@ var bot = new Discord.Client({
     
      autorun: true,
 });
-
+bot.login("NDE0MjQ0MTU3NDY1NTU5MDgw.DWthZw.gadOqltLRxDrTqEr8Y6J3u8m2eY");
 bot.on('ready', function() {
     console.log(bot.username + " - (" + bot.id + ")");
 });
