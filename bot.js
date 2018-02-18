@@ -1,5 +1,5 @@
 var Discord = require('discord.js');
-var process.env.BOT_TOKEN;
+const connection = new connection(process.env.BOT_TOKEN);
 var bot = new Discord.Client({
     
      autorun: true,
