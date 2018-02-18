@@ -1,11 +1,28 @@
 {
   "name": "bot",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
   "description": "bump bot",
   "main": "bot.js",
   "author": "clotsby",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0"
-  }
+    "discord.js": "^11.3.0",
+     "node": "^9.5.0",
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvdb4/IntervalBot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/cvdb4/IntervalBot/issues"
+  },
+  "homepage": "https://github.com/cvdb4/bumpbot"
 }
