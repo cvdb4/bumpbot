@@ -10,7 +10,7 @@
   "author": "clotsby",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.0",
+    "discord.js": "^11.3.0"
   },
   "scripts": {
     "start": "node bot.js"
