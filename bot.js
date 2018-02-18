@@ -5,7 +5,7 @@ var bot = new Discord.Client({
          email: "", // email
     password: "", // password
     //OR
-    token: "",
+    token: "NDE0MjQ0MTU3NDY1NTU5MDgw.DWuLfg._Lw2IqjSU5C4H_frhQpqAwZIxXY",
 });
 
 bot.on('ready', function() {
