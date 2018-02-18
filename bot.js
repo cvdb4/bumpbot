@@ -4,6 +4,9 @@ var bot = new Discord.Client({
      autorun: true,
          email: "", // email
     password: "", // password
+    //OR
+    token: "",
+});
 
 bot.on('ready', function() {
     console.log(bot.username + " - (" + bot.id + ")");
