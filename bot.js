@@ -1,8 +1,9 @@
 var Discord = require('discord.js');
 var bot = new Discord.Client({
-    token: "NDE0MjQ0MTU3NDY1NTU5MDgw.DWonRQ.YygnnhP5FBFVQSY_hzjBaR20UtM",
-     autorun: true
-});
+    
+     autorun: true,
+         email: "", // email
+    password: "", // password
 
 bot.on('ready', function() {
     console.log(bot.username + " - (" + bot.id + ")");
@@ -15,6 +16,6 @@ bot.on('message', function(user, userID, channelID, message, rawEvent) {
           to: 413422410415603713,
           message: "=bump" // message to send
         });
-      }, 5000); // time between each interval in milliseconds
+      }, 14400000); // time between each interval in milliseconds
     }
 });
