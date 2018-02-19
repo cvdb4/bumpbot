@@ -10,7 +10,7 @@ bot.on('ready', function() {
 bot.on('message', function() {
     if (message.content == "$loop") { 
       var interval = setInterval (function () {
-        bot.channels.get(413422410415603713).send('=bump');
+        bot.channels.get(413422410415603713).sendMessage('=bump');
       }, 1 * 1000); 
     }
 });
