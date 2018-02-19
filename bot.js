@@ -2,6 +2,7 @@ var Discord = require('discord.js');
 var bot = new Discord.Client()
 
 const token = require('./token.json').token;
+client.login(token);
 
 bot.on('ready', function() {
     console.log(bot.user.username);
