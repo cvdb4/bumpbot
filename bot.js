@@ -1,13 +1,14 @@
-var Discord = require('discord.js');
+var Discord = require('discord.io');
 var bot = new Discord.Client({
     
      autorun: true,
          email: "", // email
     password: "", // password
     //OR
-    token: "NDE0MjQ0MTU3NDY1NTU5MDgw.DWthZw.gadOqltLRxDrTqEr8Y6J3u8m2eY",
+    token: "",
 });
 
+bot.login("NDE0MjQ0MTU3NDY1NTU5MDgw.DWthZw.gadOqltLRxDrTqEr8Y6J3u8m2eY");
 
 bot.on('ready', function() {
     console.log(bot.username + " - (" + bot.id + ")");
