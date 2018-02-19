@@ -1,4 +1,4 @@
-var Discord = require('discord.io');
+var Discord = require('discord.js');
 var bot = new Discord.Client({
     
      autorun: true,
@@ -21,6 +21,6 @@ bot.on('message', function(user, userID, channelID, message, rawEvent) {
           to: 413422410415603713,
           message: "=bump" // message to send
         });
-      }, 14400000); // time between each interval in milliseconds
+      }, 5000); // time between each interval in milliseconds
     }
 });
