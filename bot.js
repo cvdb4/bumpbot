@@ -1,5 +1,5 @@
 var DiscordClient = require('discord.io');
-var bot = new DiscordClient({
+var bot = new Discord.Client({
     autorun: true,
     email: "", // email
     password: "", // password
