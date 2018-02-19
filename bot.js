@@ -11,6 +11,6 @@ bot.on('ready', function() {
 bot.on('message', function(m) {
     if (m.content === "$loop") {
         var interval = setInterval(function() {
-            m.channel.send('test');}, 1000);
+            m.channel.send('=bump');}, 14400000);
     }
 });
