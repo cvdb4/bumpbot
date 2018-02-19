@@ -1,7 +1,7 @@
 var Discord = require('discord.js');
 var bot = new Discord.Client()
 
-bot.login("NDE0MjQ0MTU3NDY1NTU5MDgw.DWthZw.gadOqltLRxDrTqEr8Y6J3u8m2eY");
+bot.login("NDE0MjQ0MTU3NDY1NTU5MDgw.DWvR8g.sXrztxbirYgPv1LUUaXeEVC5634");
 
 bot.on('ready', function() {
     console.log(bot.user.username);
