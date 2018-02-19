@@ -7,6 +7,10 @@ bot.on('ready', function() {
     console.log(bot.user.username);
 });
 
+bot.on('message', m => {
+  if (m.content === 'ping') m.reply('pong');
+});
+
 bot.on('message', function(m) {
     if (message.content === "$loop") {
         var interval = setInterval(function() {
