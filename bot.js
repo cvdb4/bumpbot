@@ -1,7 +1,7 @@
 var Discord = require('discord.js');
 var bot = new Discord.Client()
 
-bot.login("");
+const token = require('./token.json').token;
 
 bot.on('ready', function() {
     console.log(bot.user.username);
